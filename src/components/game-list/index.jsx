@@ -1,7 +1,7 @@
-export default function GameList() {
+export default function GameList({games =[]}) {
   return (
-    <div>
-    GameList 
-    </div>
+    <ul className="game-list">
+   
+    </ul>
   )
 }
