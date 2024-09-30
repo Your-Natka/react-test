@@ -4,13 +4,15 @@ export default function SearchBar(){
         <input
           className="search-input"
           type="text"
-          placeholder="Поиск по названию" />
-          <label>
-            <input
-              className="in-whish-list-checkbox"
-              type="checkbox"/>
-              Только в списке желаемого
-            </label>
-          </form>
+          placeholder="Поиск по названию"
+        />
+        <label>
+          <input
+            className="in-whish-list-checkbox"
+            type="checkbox"
+          />
+            Только в списке желаемого
+        </label>
+      </form>
         );
       }
