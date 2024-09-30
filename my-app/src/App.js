@@ -1,3 +1,4 @@
+import FilterableGameList from "./components/filterable-game-list"
 
 const GAMES = [
   {
@@ -33,7 +34,7 @@ const GAMES = [
 const App = () => {
   return (
     <>
-      <h1>Filterable Game List</h1>
+      <FilterableGameList games={ GAMES }/>
     </>
   );
 };
