@@ -3,12 +3,11 @@ import React from 'react'
 export default function GameGallery({
     images =[]
 }) {
-    let gallery = images.map (
-        (image, index) => <img src={image} alt="preview" key={index}/>
-)
+    const gallery = images.map (
+        (image, index) => (<img key={index} src={image} alt="preview" />
+));
   return (
     <div className='game-gallery'>
       {gallery}
-    </div>
-  )
+    </div>)
 }
